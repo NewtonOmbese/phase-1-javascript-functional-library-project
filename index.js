@@ -100,11 +100,8 @@ const myFlatten = function(collection, shallow, newArr=[]) {
         Array.isArray(val) ? unpack(newArr, val) : newArr.push(val);
       }
     } else {
-      // shallow = false (recursive case)
       for (let val of collection) {
         if (Array.isArray(val)) {
-          // Below, we pass newArr as an argument when we call myFlatten recursively 
-          // because we need to retain the values that were pushed in previous calls
           myFlatten(val, false, newArr);
         } else {
           newArr.push(val);
@@ -112,23 +109,21 @@ const myFlatten = function(collection, shallow, newArr=[]) {
       }
     }
     return newArr;
-  }
-  
-  // Object Functions
-  
-  const myKeys = function(obj) {
+}
+    
+const myKeys = function(obj) {
     const keys = [];
     for (let key in obj){
       keys.push(key);
     }
     return keys;
-  }
+}
   
-  const myValues = function(obj) {
+const myValues = function(obj) {
     const values = [];
     for (let key in obj){
       values.push(obj[key]);
     }
     return values;
   
-  }
+}

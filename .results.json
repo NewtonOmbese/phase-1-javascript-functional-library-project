@@ -5,9 +5,9 @@
     "passes": 27,
     "pending": 0,
     "failures": 0,
-    "start": "2022-06-19T18:10:49.757Z",
-    "end": "2022-06-19T18:10:50.298Z",
-    "duration": 541
+    "start": "2022-06-19T19:29:31.573Z",
+    "end": "2022-06-19T19:29:32.251Z",
+    "duration": 678
   },
   "tests": [
     {
@@ -20,21 +20,21 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 8,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the original collection",
       "fullTitle": "index.js myEach returns the original collection",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,28 +62,28 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value from object values",
       "fullTitle": "index.js myReduce returns the correct reduced value from object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -125,7 +125,7 @@
     {
       "title": "correctly returns an empty array if no matching values are found",
       "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -146,7 +146,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -160,7 +160,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -188,14 +188,14 @@
     {
       "title": "retrieves all the values of the object's own properties",
       "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myValues does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -213,21 +213,21 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 8,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the original collection",
       "fullTitle": "index.js myEach returns the original collection",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -241,7 +241,7 @@
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -255,28 +255,28 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value from object values",
       "fullTitle": "index.js myReduce returns the correct reduced value from object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -290,7 +290,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js myFind returns the value if found",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -318,7 +318,7 @@
     {
       "title": "correctly returns an empty array if no matching values are found",
       "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -339,7 +339,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -353,7 +353,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -381,14 +381,14 @@
     {
       "title": "retrieves all the values of the object's own properties",
       "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myValues does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
